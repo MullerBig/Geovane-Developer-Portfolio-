@@ -1,0 +1,112 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.header::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/icons/tresPontos.svg');
+}
+
+.header .photo {
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+}
+
+.header .title {
+    text-align: center;
+}
+
+.content__info p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+    font-size: 1.110rem;
+}
+
+.content__info p::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat ;
+    background-size: contain;
+    margin-right: .5rem;
+}
+
+.content__info .cargo::before {
+    background-image: url('/assets/img/icons/cargo.svg');
+}
+
+.content__info .loc::before {
+    background-image: url('/assets/img/icons/loc.svg');
+}
+
+.content__info .zap::before {
+    background-image: url('/assets/img/icons/zap.svg');
+}
+
+.content__info .email::before {
+    background-image: url('/assets/img/icons/email.svg');
+}
+
+.content__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.content__info a {
+    color: white;
+    text-decoration: none;
+}
+
+.content__info a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .header {
+        display: grid;
+        grid-template-areas: 
+        "photo title"
+        "photo content"
+        ;
+
+    }
+
+    .header .photo {
+        grid-area: photo;
+        margin: 0 auto;
+    }
+
+    .header .title {
+        grid-area: title;
+        text-align: start;
+        max-width: 210px;
+    }
+
+    .header .content__info {
+        grid-area: content__info;
+    }
+    
+}

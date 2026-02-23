@@ -1,0 +1,87 @@
+{
+  "name": "Geovane de Souza Ferreira",
+  "photo": "./assets/img/eu.png",
+  "job": "Frontend Developer",
+  "location": "São Bernardo do Campo - SP",
+  "phone": "(11) 93150-0531",
+  "email": "geovane.desouzaferreira07@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "React",
+        "logo": "./assets/img/icons/skills/react.svg"
+      },
+      {
+        "name": "Angular",
+        "logo": "./assets/img/icons/skills/angular.svg"
+      },
+      {
+        "name": "Javascript",
+        "logo": "./assets/img/icons/skills/javascript.svg"
+      },
+      {
+        "name": "Csharp",
+        "logo": "./assets/img/icons/skills/csharp.svg"
+      },
+      {
+        "name": ".net",
+        "logo": "./assets/img/icons/skills/dotnet.svg"
+      },
+      {
+        "name": "SqlServer",
+        "logo": "./assets/img/icons/skills/sqlServer.svg"
+      },
+      {
+        "name": "Python",
+        "logo": "./assets/img/icons/skills/python.svg"
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "Proatividade",
+      "Trabalho em equipe",
+      "Resiliência",
+      "Organização",
+      "Disciplina"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (Avançado)",
+    "Espanhol (intermediário)"
+  ],
+  "portfolio": [
+    {
+      "name": "Frontend do projeto de futebol que tem uma página web React Js para consumir API RESTful",
+      "url": "https://github.com/MullerBig/Frontend-Futebol-React.git",
+      "github": true
+    },
+    {
+      "name": "Backend do projeto de futebol que possui API RESTful de Futebol utilizando C# e .NET Core 8",
+      "url": "https://github.com/MullerBig/API-RESTful-Futebol.git",
+      "github": true
+    },
+    {
+      "name": "Curso Ministrado na DIO para a consumo de API com Angular",
+      "url": "https://github.com/MullerBig/AngularConsumoAPI.git",
+      "github": true        
+    },
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma página Angular para criação de quizzes",
+      "url": "https://github.com/MullerBig/BuzzFeed-Quizz__EstudoAngular.git",
+      "github": true             
+    }
+  ],
+  "academicExperience": [
+    {
+      "name": "Fullstack Developer / FutCore",
+      "period": "Maio 2025 - Julho 2025",
+      "description": "Foi um projeto para criar eventos futebolísticos utilizando uma API RESTful e uma página web para consumir a API. O projeto foi desenvolvido utilizando C# e .NET Core 8 para o backend e React Js para o frontend. Aprendi muito sobre desenvolvimento de API RESTful, consumo de API com React, além de aprimorar meus conhecimentos em C# e .NET Core, Javascript Html e CSS."
+    },
+    {
+      "name": "Fullstack Developer / FutEstatistica",
+      "period": "Janeiro 2026 - Atualmente",
+      "description": "É um projeto ambicioso onde está sendo desenvolvido um sistema para controlar estatisticas de futebol utilizando uma API RESTful e uma página web para consumir a API. O projeto está sendo desenvolvido utilizando C# e .NET Core 8 para o backend e Angular para o frontend. É um projet desafiador e que requer muita disciplina, organização e resiliência para aprender e desenvolver uma solução que resolve um problema do mundo real."
+    }
+  ]
+}
