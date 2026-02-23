@@ -16,7 +16,7 @@
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/img/icons/tresPontos.svg');
+    background-image: url('../../img/icons/tresPontos.svg');
 }
 
 .header .photo {
@@ -49,19 +49,19 @@
 }
 
 .content__info .cargo::before {
-    background-image: url('/assets/img/icons/cargo.svg');
+    background-image: url('../img/icons/cargo.svg');
 }
 
 .content__info .loc::before {
-    background-image: url('/assets/img/icons/loc.svg');
+    background-image: url('../../img/icons/loc.svg');
 }
 
 .content__info .zap::before {
-    background-image: url('/assets/img/icons/zap.svg');
+    background-image: url('../../img/icons/zap.svg');
 }
 
 .content__info .email::before {
-    background-image: url('/assets/img/icons/email.svg');
+    background-image: url('../../img/icons/email.svg');
 }
 
 .content__info {
