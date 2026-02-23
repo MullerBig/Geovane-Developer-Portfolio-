@@ -1,0 +1,57 @@
+
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.education__item {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: 1rem;
+}
+
+
+.title__Education {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+
+.title__Education::before {
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    background-image: url('../../img/icons/chapeu.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.education__meta {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+
+.period {
+    white-space: nowrap;
+}
+
+
+.status {
+    padding-left: .75rem;
+    border-left: 2px solid currentColor;
+}

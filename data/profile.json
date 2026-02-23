@@ -1,6 +1,6 @@
 {
-  "name": "Geovane de Souza Ferreira",
-  "photo": "/assets/img/eu.png",
+  "name": "Geovane Ferreira",
+  "photo": "/assets/img/profilePicture.png",
   "job": "Frontend Developer",
   "location": "São Bernardo do Campo - SP",
   "phone": "(11) 93150-0531",
@@ -83,5 +83,35 @@
       "period": "Janeiro 2026 - Atualmente",
       "description": "É um projeto ambicioso onde está sendo desenvolvido um sistema para controlar estatisticas de futebol utilizando uma API RESTful e uma página web para consumir a API. O projeto está sendo desenvolvido utilizando C# e .NET Core 8 para o backend e Angular para o frontend. É um projet desafiador e que requer muita disciplina, organização e resiliência para aprender e desenvolver uma solução que resolve um problema do mundo real."
     }
+  ],
+  "education": [
+    {
+      "institution":"Anhanguera",
+      "course":"Análise e Desenvolvimento de Sistemas",
+      "period":"01/2024 - 06/2026",
+      "status":"Cursando"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Angular Developer",
+      "institution": "DIO",
+      "src": "./assets/img/certificados/F0A0FSDD.jpg"
+    },    
+    {
+      "name": "Pyrhon Fundamentals",
+      "institution": "DIO",
+      "src": "./assets/img/certificados/formacaoPython.jpg"
+    },
+    {
+      "name": "Fundamentos da Inteligência Artificial",
+      "institution": "DIO",
+      "src": "./assets/img/certificados/formacaoIA.jpg"
+    },
+    {
+      "name": "Html Developer",
+      "institution": "DIO",
+      "src": "./assets/img/certificados/formacaoHTML.jpg"
+    }            
   ]
 }

@@ -88,15 +88,64 @@ function updateAcademicExperience(dadosRecebidos) {
 
 }
 
-(async () => {
+function updateEducation(dadosRecebidos) {
+    const education = document.getElementById('profile.education');
 
-    const dadosRecebidos = await buscarDados();
+    education.innerHTML = dadosRecebidos.education.map(education => {
+        return `
+
+            <li class="education__item">
+                <h3 class="title__Education">${education.course}</h3>
+
+                <p class="institution">Instituição: <span>${education.institution}</span></p>
+
+                <div class="education__meta">
+                    <span class="period">Periodo: ${education.period}</span>
+                    <span class="status">Status: ${education.status}</span>
+                </div>
+            </li>
+
+        `
+    }).join('')
+}
+
+
+function updateCertifications(dadosRecebidos) {
+    const certifications = document.getElementById('profile.certifications');
+
+    certifications.innerHTML = dadosRecebidos.certifications.map(certification => {
+        return `
+
+        <li>
+        
+            <h3>${certification.name}</h3>
+            <img src="${certification.src}" alt="Logo de ${certification.name}">
+        
+        </li>
+
+        `
+    }).join('')
+}
+
+
+
+
+function funcaoPrincipal(dadosRecebidos) {
     updateProfileInfo(dadosRecebidos);
     updateHardSkills(dadosRecebidos);
     updateSoftSkills(dadosRecebidos);
     updateLanguages(dadosRecebidos);
     updatePortfolio(dadosRecebidos);
     updateAcademicExperience(dadosRecebidos);
+    updateEducation(dadosRecebidos);
+    updateCertifications(dadosRecebidos);
+}   
+ 
+
+(async () => {
+
+    const dadosRecebidos = await buscarDados();
+    funcaoPrincipal(dadosRecebidos);
 
     console.log("Dados recebidos no main.js: ", dadosRecebidos);
 

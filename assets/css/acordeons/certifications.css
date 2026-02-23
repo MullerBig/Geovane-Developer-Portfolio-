@@ -1,0 +1,31 @@
+.certifications {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.certifications li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+
+.certifications .title__certifications {
+    font-weight: 700;
+    padding: .5rem;
+}
+
+
+.certifications img {
+    width: 350px;          
+    height: 250px;         
+    object-fit: cover;     
+    display: block;
+    border-radius: .5rem;
+}
