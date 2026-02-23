@@ -1,6 +1,6 @@
 {
   "name": "Geovane de Souza Ferreira",
-  "photo": "./assets/img/eu.png",
+  "photo": ".assets/img/eu.png",
   "job": "Frontend Developer",
   "location": "São Bernardo do Campo - SP",
   "phone": "(11) 93150-0531",
@@ -9,31 +9,31 @@
     "hardSkills": [
       {
         "name": "React",
-        "logo": ".assets/img/icons/skills/react.svg"
+        "logo": "./assets/img/icons/skills/react.svg"
       },
       {
         "name": "Angular",
-        "logo": ".assets/img/icons/skills/angular.svg"
+        "logo": "./assets/img/icons/skills/angular.svg"
       },
       {
         "name": "Javascript",
-        "logo": ".assets/img/icons/skills/javascript.svg"
+        "logo": "./assets/img/icons/skills/javascript.svg"
       },
       {
         "name": "Csharp",
-        "logo": ".assets/img/icons/skills/csharp.svg"
+        "logo": "./assets/img/icons/skills/csharp.svg"
       },
       {
         "name": ".net",
-        "logo": ".assets/img/icons/skills/dotnet.svg"
+        "logo": "./assets/img/icons/skills/dotnet.svg"
       },
       {
         "name": "SqlServer",
-        "logo": ".assets/img/icons/skills/sqlServer.svg"
+        "logo": "./assets/img/icons/skills/sqlServer.svg"
       },
       {
         "name": "Python",
-        "logo": ".assets/img/icons/skills/python.svg"
+        "logo": "./assets/img/icons/skills/python.svg"
       }
     ],
     "softSkills": [
