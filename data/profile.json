@@ -112,6 +112,11 @@
       "name": "Html Developer",
       "institution": "DIO",
       "src": "./assets/img/certificados/formacaoHTML.jpg"
-    }            
+    },
+    {
+      "name": "Javascript",
+      "institution": "DIO",
+      "src": "./assets/img/certificados/fomarcaoJavascript.jpg"
+    }                
   ]
 }
